@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName 'id & pass'
+AuthUserFile /Users/jin/Projects/php/php_test2/mainte/.htpasswd
+require valid-user
+
