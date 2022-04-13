@@ -8,4 +8,4 @@ use Carbon\Carbon;
 $app = new TestController;
 $app->run();
 
-echo Carbon::now();
+echo Carbon::now()->format(‘今日はY年m月d日だよ！’);
